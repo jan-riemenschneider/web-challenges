@@ -1,0 +1,57 @@
+/* Please scroll down to the start of your exercise! */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+
+section {
+  background-color: lemonchiffon;
+  display: grid;
+  place-items: center;
+}
+
+.skyblue {
+  background-color: skyblue;
+}
+
+button {
+  background-color: white;
+  padding: 8px 25px;
+}
+
+
+
+.button1 {
+  border: 2px solid #4caf50;
+border-radius: 12px;
+padding: 10px 20px; 
+background-color: #f0f0f0;
+}
+
+.button2 {
+  background-color: #ff5733; 
+  color: white; 
+  border: none; 
+}
+
+.button3 {
+  font-family: 'Courier New', Courier, monospace; 
+  font-size: 18px; 
+  color: #34495e; 
+}
+
+.button4 {
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  background-color: #8e44ad; 
+  color: white; 
+  border: none; 
+  padding: 10px 20px; 
+}
+
+/* Feel free to play around with other properties, as well. */

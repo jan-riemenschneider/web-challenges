@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui;
+}
+
+.pink {
+  font-family: cursive;
+  padding: 8px;
+  height: 150px; 
+  width: 150px;
+  background-color: hotpink;
+  color: white;
+  border: 1px solid black;
+  border-radius: 8px;
+
+  /* ✨ feel free to experiment! */
+}

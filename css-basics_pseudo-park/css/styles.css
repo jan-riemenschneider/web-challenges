@@ -1,0 +1,46 @@
+/*
+  None of these styles are being applied to the HTML.
+  Can you fix that?
+
+  Once the styles are applied,
+  the park should be pale yellow box with a dashed border.
+*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.park {
+  margin: 16px;
+  border: 2px dashed silver;
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: lightgoldenrodyellow;
+}
+
+.animal {
+  padding: 16px;
+  font-size: 32px;
+}
+
+.giraffe {
+  text-align: center;
+}
+
+.dino {
+  text-align: right;
+}
+
+.crocodile:hover {
+  background-color: lightblue;
+}
+
+.giraffe:hover {
+  background-color: lightgreen;
+}
+
+.dino:hover {
+  background-color: lightsalmon;
+}
