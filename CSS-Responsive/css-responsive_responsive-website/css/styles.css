@@ -253,7 +253,6 @@ width, etc. */
 /* --- */
 
 @media (min-width: 900px) {
-
   .card-section {
     width: 100%;
     display: flex;
@@ -263,7 +262,7 @@ width, etc. */
     gap: var(--gap);
     flex-direction: row;
   }
- .product-card {
+  .product-card {
     justify-content: space-around;
     align-items: center;
     width: 45%;
@@ -278,7 +277,6 @@ width, etc. */
 }
 
 @media (min-width: 1200px) {
-  
   .product-card.--forest {
     display: flex;
     flex-direction: row;
@@ -289,11 +287,9 @@ width, etc. */
   .intro-text {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start
+    justify-content: flex-start;
   }
   .card-section {
     gap: var(--gap);
-
   }
-
 }
