@@ -6,11 +6,14 @@ console.clear();
    The formula is: square = number * number
 */
 
-function printSquare(number) {}
+/* function printSquare(number1, number2) {
+  console.log(number1 * number2);
+}
+printSquare(3, 5);
 
-printSquare(3);
-printSquare(5);
+const printSquare (number1, number2) => console.log(number1 * number2);
 
+printSquare(3, 5); */
 /*
 2: We want to use a function which accepts the radius of a circle as a parameter and logs
    the circumference to the console. The function does not exist yet.
@@ -19,8 +22,19 @@ printSquare(5);
 
 // Uncomment the following function calls and implement the function printCircumference
 
-// printCircumference(4);
-// printCircumference(6);
+/* function printCircumference (radius) {
+   const Pi = 3.141592653589793;
+   console.log(2 * Pi * radius);
+}
+printCircumference(4);  */
+
+const printCircumference = (radius) => {
+   const Pi = 3.141592653589793 
+   console.log(2 * Pi * radius);
+}
+
+printCircumference(4); 
+
 
 /*
 3: We want to use a function which accepts the width and length of a rectangle
@@ -32,5 +46,14 @@ printSquare(5);
 
 // Uncomment the following function calls and implement the function printRectangleArea
 
-// printRectangleArea(5, 7);
-// printRectangleArea(3, 4);
+/* function printRectangleArea (width, length) {
+   console.log("The area of the rectangle is ? " + width * length);
+}
+
+printRectangleArea(5, 7);
+printRectangleArea(3, 4); */
+
+const printRectangleArea = (width, length) => console.log("The area of the rectangle is " + width * length);
+
+printRectangleArea(5, 7);
+printRectangleArea(3, 4);

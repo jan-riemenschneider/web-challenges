@@ -7,8 +7,6 @@ console.log("Exercise 1:");
 */
 
 // Uncomment the next line of code and figure out why it does not work:
-// logText;
-
 logText();
 
 function logText() {
@@ -21,7 +19,7 @@ console.log("Exercise 2:");
 2: Look at the functions below. They are almost identical. Can you find a way to generalize them into a new function with an input parameter? Replace the function calls below with your new function.
 */
 
-function greetBob() {
+/* function greetBob() {
   console.log("Welcome Bob, good to see you again!");
 }
 
@@ -31,16 +29,19 @@ function greetAlice() {
 
 function greetMary() {
   console.log("Welcome Mary, good to see you again!");
+} */
+
+function greet(nam) {
+  console.log("Welcome " + nam + ", good to see you again!");
 }
 
-/* greetAlice();
-greetBob();
-greetMary(); */
+greet("Bob");
+greet("Alice");
+greet("Mary");
 
-function greet(greetBob, greetAlice, greetMary) {
-  console.log(greetBob, greetAlice, greetMary);
-}
-greet(); 
+// --v-- write your code here --v--
+
+/* function greet() {} */
 
 // --^-- write your code here --^--
 
@@ -52,6 +53,12 @@ console.log("Exercise 3:");
 Note: Separation text means the text that is logged into the console before each exercise. For example: "-------------" and "Exercise 1:" are the separation texts for the first exercise.
 */
 
-// --v-- write your code here --v--
+function logSeparator(number) {
+  console.log("-------------");
+  console.log("Exercise " + number + ":");
+}
+logSeparator("1");
+logSeparator("2");
+logSeparator("3"); 
 
-// --^-- write your code here --^--
+function
