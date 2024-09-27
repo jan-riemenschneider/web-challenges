@@ -35,3 +35,4 @@ function renderColorBox(color) {
 }
 
 colors.forEach(renderColorBox);
+
