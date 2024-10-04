@@ -1,0 +1,60 @@
+let number = 11;
+
+if (number > 10) {
+  console.log("Größer als 10");
+} else {
+  console.log("Kleiner oder gleich 10");
+}
+
+number > 10 ? console.log("Größer als 10") : console.log("Kleiner oder gleich 10");
+
+let age = 17;
+
+if (age > 18) {
+  console.log("Volljährig");
+} else console.log("Minderjährig");
+
+age > 18 ? console.log("Volljährig") : console.log("Minderjährig"); 
+
+let temperatur = 35;
+
+if (temperatur < 0) {
+  console.log("Eiskalt");
+} else if (temperatur > 0 && temperatur < 20) {
+  console.log("Kalt");
+} else if (temperatur > 21 && temperatur < 30) {
+  console.log("Angenehm");
+} else if (temperatur > 30) {
+  console.log("Heiß");
+}
+
+const number1 = 10;
+const number2 = 15;
+const number3 = 20;
+
+if (number1 >= number2 && number1 >= number3) {
+  console.log(number1 + "ist die größte Zahl");
+} else if (number2 >= number1 && number2 >= number3) {
+  console.log(number2 + "ist die größere Zahl");
+} else if (number3 >= number2 && number3 >= number1) {
+  console.log(number3 + "ist die größere Zahl");
+}
+
+let password = 1234;
+
+if (password === 1234) {
+  console.log("Zugriff gewährt");
+} else console.log("Zugriff verweigert");
+
+let num = 9; 
+
+if (num / 3) {
+    console.log("Teilbar durch 3"); 
+} else if (num / 5) {
+    console.log("Teilbar durch 5"); 
+}   else if (num / 5 && num / 3) {
+    console.log("Teilbar durch 3 und 5");
+}
+
+
+
